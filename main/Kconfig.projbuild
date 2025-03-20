@@ -1,0 +1,35 @@
+menu "BEAMZAPPER Configuration"
+
+config BEAMZAPPER_PIN_HSYNC
+int "HSYNC PIN"
+default 16
+
+config BEAMZAPPER_PIN_VSYNC
+int "VSYNC PIN"
+default 17
+
+config BEAMZAPPER_PIN_BUTTON
+int "BUTTON PIN"
+default 22
+
+config BEAMZAPPER_PIN_JOY0
+int "JOY0 PIN up"
+default 18
+
+config BEAMZAPPER_PIN_JOY1
+int "JOY1 PIN down"
+default 19
+
+config BEAMZAPPER_PIN_JOY2
+int "JOY2 PIN left"
+default 23
+
+config BEAMZAPPER_PIN_JOY3
+int "JOY3 PIN right"
+default 5
+
+config BEAMZAPPER_PIN_LED
+int "LED PIN"
+default 2
+
+endmenu
