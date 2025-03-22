@@ -15,6 +15,7 @@ Parts
  * IR-led
  * wires, connectors, breadboard etc.
 
+![Principle](img/principle.png)
 ![Prototype](img/prototype.jpg)
 ![Schema](img/SCH_Schematic1_1-P1_2025-03-15.png)
 
@@ -24,3 +25,8 @@ Credits
 
 See https://gitlab.com/ricardoquesada/bluepad32 for complete wireless gamepad solution.
 (That project is not related in any way)
+
+TODO
+ * See https://www.lemon64.com/forum/viewtopic.php?t=82449 and implement pot x and pot y
+   Will run out of level-shifter channels. Change vsync or hsync to resistor divider.
+ * Implement motion detection (Study HMM, DTW, MLP, etc.)
